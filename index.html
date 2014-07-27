@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+<script type="text/javascript" src="js/calculadora.js"></script>
+</head>
+
+
+<div id="barra">Calculadora</div>
+
+
+<embed src="sonido/THE RESON.mp3" id="sonido"  
+  autostart="false" 
+  width="0" height="0" 
+  enablejavascript="true" 
+/>
+
+
+
+
+
+<form name="calculador">
+<table border="0" cellpadding="1" align="center" id="caja" />
+
+<tr>
+    <td colspan="5" ><input align="right" type="text"  name="numeros" id="campo" autocomplete="off" placeholder="CALCULADORA" align="right"/>
+    
+    <button a type="button" value="borrar" onClick="borrar()"><img src="img/borrar.png" height="10" width="55"></button></td>
+</tr>
+
+<tr>
+   <td><button type="button" value="1" onClick="validaruno();EvalSound('sonido')"><img src="img/1.png" height="55" width="55"></button></td>
+   <td><button type="button" value="2" onClick="validardos()"><img src="img/2.png" height="55" width="55"></button></td>
+   <td><button type="button" value="3" onClick="validartres()"><img src="img/3.png" height="55" width="55"></button></td>
+    <td><button type="button" value="+" onClick="validarSuma()"><img src="img/suma.png"  height="55" width="55"></button></td>
+</tr>
+<tr>
+    <td><button type="button" value="4" onClick="validarcuatro()"><img src="img/4.png" height="55" width="55"></button></td>
+    <td><button type="button" value="5" onClick="validarcinco()"><img src="img/5.png" height="55" width="55"></button></td>
+    <td><button type="button" value="6" onClick="validarseis()"><img src="img/6.png" height="55" width="55"></button></td>
+     <td><button type="button" value="-" onClick="validarResta()"><img src="img/resta.png" height="55" width="55"></button></td>
+</tr>
+<tr>
+    <td><button type="button" value="7" onClick="validarsiete()"><img src="img/7.png" height="55" width="55"></button></td>
+    <td><button type="button" value="8" onClick="validarocho()"><img src="img/8.png" height="55" width="55"></button></td>
+    <td><button type="button" value="9" onClick="validarnueve()"><img src="img/9.png" height="55" width="55"></button></td>
+     <td><button type="button" value="/" onClick="validarDivision()"><img src="img/division.png" height="55" width="55"></button></td>
+</tr>
+<tr>
+    <td><button type="button" value="." onClick="validarPunto()"><img src="img/punto.png" height="55" width="55"></button></td>
+    <td><button type="button" value="0" onClick="validarcero()"><img src="img/0.png" height="55" width="55"></button></td>
+    <td><button type="button" value="=" onClick="Calcular()"><img src="img/igual.png" height="55" width="55"></button></td>
+     <td><button type="button" value="*" onClick="validarMulti()"><img src="img/multi.png" height="55" width="55"></button></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>

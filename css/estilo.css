@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:rgba(55,196,225,1.00);
+	}
+	
+	
+#barra{ 
+  background-color:rgba(50,231,211,0.91);
+  height: 50px;
+  text-align:center;
+  font-family:arial;
+  font-size:50px;
+}
+
+#caja{
+	background:#f0f0f0;
+	width:10%;
+	border:.5px solid white;
+	margin:5px auto;
+	padding:1em;
+	border-radius:16px;
+	float:center;
+	}
+	
+	#campo{
+	background:rgba(19,206,215,1.00);
+	width:240px;
+	border:.5px solid white;
+	margin:20px auto;
+	padding:1em;
+	border-radius:6px;
+	}
+	
+	
+	input[type=text]{
+		font-family:arial;
+		font-size:20px;
+		}
+		button[type=button]{
+			border:none;
+			padding:.3em;
+			border-radius:10px;
+			}
+		
+		
